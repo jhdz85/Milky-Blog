@@ -1,0 +1,103 @@
+* {
+    margin:0;
+    padding:0;
+}
+.header-shot{
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/jhdz85/Milky-Blog/main/Images/main.jpg");
+    height: 420px;
+    background-position-y: -450px;
+    background-size: 100% auto;
+    position: relative;
+}
+
+nav{
+
+    position: sticky; top: 0;
+    background-color: aliceblue;
+    width: 100%;
+    z-index: 1;
+    padding-left: 15px;
+
+}
+
+img{
+    max-width:450px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+.header-title{
+    display: inline-block;
+    color:orange
+}
+.header-nav{
+    display: inline-block;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+nav li {
+
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+
+
+.places-lived-sections {
+    display: inline-block;
+    margin: 0px 10px 40px 10px;
+    max-width: 250px;
+}
+
+.body {
+    background-color: rgb(241, 237, 237);
+    text-align: center;
+    
+}
+
+.residence-title {
+    color: orange;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: rgb(22, 64, 22);
+    height: 100px;
+    color: white;
+}
+
+.description {
+    color: black;
+    text-align: center;
+}
+
+.date {
+    font-weight: lighter;
+}
+
+.contact, .age {
+    display:inline-block;
+    margin: 30px 100px 10px 100px;
+}
+.age{
+    float:right;
+}
+
+.signature {
+    text-align: center;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
