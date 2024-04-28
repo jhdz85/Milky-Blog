@@ -4,16 +4,18 @@
 }
 body,html{
     height:100%;
+    width: 100%;
 }
 .header-shot{
     background-repeat: no-repeat;
     background-image: url("https://raw.githubusercontent.com/jhdz85/Milky-Blog/main/Images/main.jpg");
-    height: 450px;
-    background-position-y: -400px;
-    background-size: cover;
-    position: relative;
+    background-position: center 0;
+    background-position-y: -650px;
+    background-size: 1900px;
+    position: inherit;
+    min-width: 300px;
+    min-height: 550px;
     width: 100%;
-    border-style: solid;
 }
 
 nav{
@@ -55,17 +57,34 @@ nav li {
     margin: 0px 10px 40px 10px;
     max-width: 250px;
 }
+.friends_page {
+    margin: 0px 10px 40px 10px;
+}
+
+.friends-pic,.friend-metadata{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.friend-metadata{
+    width: 100%;
+}
+
+.friends_page{
+    display: flex;
+}
 
 .body {
     background-color: rgb(241, 237, 237);
     text-align: center;
-    
+    width: 100%;
 }
 
-.residence-title {
+.section-title {
     color: orange;
     padding-top: 50px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 footer{
